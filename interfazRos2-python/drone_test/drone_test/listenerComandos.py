@@ -1,6 +1,7 @@
 import rclpy
 from std_msgs.msg import String
 import socket
+import time
 
 def enviar_comando(mensaje):
     # Crea un socket UDP
