@@ -23,6 +23,7 @@ setup(
                 'talker = drone_test.comandos_test:main',
                 'listener = drone_test.listener_test:main',
                 'listener_comandos = drone_test.listenerComandos:main',
+                'listener_swarm = drone_test.listener_drone_swarm:main',
         ],
 },
 )
